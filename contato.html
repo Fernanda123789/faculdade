@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Portfólio Fernanda Pereira</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 0%;
+                background-color: white;
+            }
+            header {
+                text-align: center;
+                background-color: white;
+                padding: 15px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+            header a {
+                text-decoration: none;
+            }
+            header h2:hover {
+                background-color: black;
+                color: white;
+                padding-inline: 16px;
+            }
+            header img {
+                width: 70px;
+                padding-inline: 16px;
+                display:table-column;
+                flex-direction: column;
+                align-items: center;
+                
+            }
+            header h1 {
+                font-family: monospace;
+                font-size: 50px;
+                color: black;
+                margin-inline: 50px;
+            }
+            header h2 {
+                font-family: monospace;
+                font-size: 15px;
+                color: black;
+                padding-inline: 16px;
+            }
+            nav {
+                background-color: rgb(0, 0, 0);
+                color: white;
+                text-align: center;
+            }
+            form {
+                max-width: 600px;
+                margin: 0 auto;
+            }
+            label {
+                display: block;
+                margin-bottom: 8px;
+            }
+            input, textarea {
+                width: 100%;
+                padding: 8px;
+                margin-bottom: 16px;
+                box-sizing: border-box;
+            }
+            input[type="submit"] {
+                background-color: white;
+                color: black;
+                cursor: pointer;
+            }       
+            input[type="submit"]:hover {
+                background-color: black;
+                color: white;
+            }
+            footer {
+                background-color: rgb(0, 0, 0);
+                color: white;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="icone">
+                <a href="Sobre_mim.html"><img src="Imagens/icons8-mulher-100.png">
+                <h2>Sobre mim</h2></a>
+            </div>
+            <div class="icone">
+                <a href="formacao.html"><img src="Imagens/icons8-livros-100.png">
+                <h2>Formação</h2></a>
+            </div>
+            <a href="inicio.html"><h1>Fernanda Pereira</h1></a>
+            <div class="icone">
+                <a href="portfolio.html"><img src="Imagens/icons8-anexo-100.png">
+                <h2>Portfólio</h2></a>
+            </div>
+            <div class="icone">
+                <a href="contato.html"><img src="Imagens/icons8-telefone-fixo-100.png">
+                <h2>Contato</h2></a>
+            </div>
+        </header>
+        <nav>
+            &#9657; &#9657; &#9657; &#9657; &#9657;
+        </nav>
+        <form>
+            <form action="#" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+        
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+        
+                <input type="submit" value="Enviar">
+            </form>
+        </form>
+        <footer>
+            &#9657; &#9657; &#9657; &#9657; &#9657;
+        </footer>
+    </body>
+</html>
